@@ -202,5 +202,10 @@ Note: dont use flex-direction because it affects the size of elements*/
         /* \1F44D is the CSS code for a thumbs up emoji */
         content: "\1F44D";
     }
+
+    /* to match the example, i put the footer on the next page */
+    footer{
+        page-break-before: always;
+    }
 }
 
