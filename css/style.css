@@ -187,6 +187,11 @@ Note: dont use flex-direction because it affects the size of elements*/
     }
 
     /* 20. No part of the gallery should be visible. */
+    /* header for gallery is gone */
+    #gallery{
+        display: none;
+    }
+    /* the images are gone */
     .gallery{
         display: none;
     }
